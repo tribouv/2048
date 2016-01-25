@@ -62,15 +62,14 @@ retu = false;
             }
         }
     }
-if(retu == false){
-	 document.getElementById('game').className = "GameoverON";
-	 document.getElementById('grid').style.opacity = "0.2";
-	 gameover = 1;
-	    
-}
+    if(retu == false){
+    	 document.getElementById('game').className = "GameoverON";
+    	 document.getElementById('grid').style.opacity = "0.2";
+    	 gameover = 1;
+    	    
+    }
 
 }
-
 
 function startGame(param){
 	if (param != 1) {
@@ -369,16 +368,11 @@ gauche = element = document.getElementById("gauche");
 NG = element = document.getElementById("NG");
 document.getElementById("bot").addEventListener("click", boteur);
 
-
-
 haut.onclick =  MoveUp;
 bas.onclick = MoveDown;
 droite.onclick = MoveRight;
 gauche.onclick = MoveLeft;
 NG.onclick = startGame;
-
-
-
 
 //style des cases
 function style(){
@@ -411,4 +405,4 @@ function style(){
         };
         compt = compt + 4;
     };
-}
+};

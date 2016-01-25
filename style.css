@@ -28,7 +28,6 @@ body {
   line-height: 100px;
 }
 
-
 #score {
   width: 100px;
   background-color: #C8D7E3;
@@ -111,8 +110,6 @@ body {
   height: 48px;
   color: #fff;
 }
-
-
 
 .fleche-left, .fleche-right {
   float: left;
