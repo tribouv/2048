@@ -1,13 +1,17 @@
+<!DOCTYPE>
+<html>
 <head>
+  <title>2048 | Leap motion</title>
   <link rel="stylesheet" type="text/css" href="style.css">
   <link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
 </head>
+<body>
 <div class="container">
 
 <div class="top-game">
-<div class="btn bot" id="bot">BOT</div>
-<div id="score"></div>
-<button id="NG" class="btn text-NG">New Game</buttun>    
+  <div class="btn bot" id="bot">BOT</div>
+  <div id="score"></div>
+  <button id="NG" class="btn text-NG">New Game</buttun>    
 </div>
 
   <div class="gameoverOFF" id="game"><h1>GameOver</h1></div>
@@ -31,20 +35,8 @@
     <script src="script.js"></script>
 </div>
 
-
-
-<head>
-    <script type="text/javascript">
-        function OnButtonDown (button) {
-            button.style.color = "#EEE";
-        }
-        function OnButtonUp (button) {
-            button.style.color = "red";
-        }
-    </script>
-
-
+<footer>
     <script src="https://js.leapmotion.com/leap-0.6.4.js"></script>
     <script src="leap.js"></script>
-  
-</head>
+</footer>  
+</body>

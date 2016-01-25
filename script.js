@@ -32,6 +32,13 @@ function boteur(param){
         	};
 }
 
+function OnButtonDown (button) {
+    button.style.color = "#EEE";
+}
+function OnButtonUp (button) {
+    button.style.color = "red";
+}
+
 function checkGameOver(){
 retu = false;
     for (var x = game.length - 1; x > 0; x--){
