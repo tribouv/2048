@@ -1,0 +1,165 @@
+body {
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.cf {
+  clear: both;
+}
+
+.grid-container {
+  width: 500px;
+  height: 500px;
+  background : rgba(110, 149, 181, 0.38);
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.case {
+  width: 106.25px;
+  height: 106.25px;
+  margin-right: 15px;
+  float: left;
+  border-radius: 3px;
+  background: rgba(238, 227, 216, 0.45);
+  margin: 9px;
+  color : white;
+  font-size: 32px;
+  line-height: 100px;
+}
+
+
+#score {
+  width: 100px;
+  background-color: #C8D7E3;
+  /*-webkit-border-radius: 4px 4px 0 0;
+  -moz-border-radius: 4px 4px 0 0;
+  border-radius: 4px 4px 0 0;*/
+  float: right;
+  min-width: 180px;
+  height: 42px;
+  font-size: 35px;
+  color: #FFF;
+}
+
+.top-game {
+    width: 530px;
+    margin: auto;
+}
+
+.case-2 {
+ background: #89C4F4;
+}
+
+.case-4 {
+  background: #59ABE3;
+}
+
+.case-8 {
+  background: #22A7F0;
+}
+
+.case-16 {
+  background: #5D8CAE;
+}
+
+.case-32 {
+  background: #48929B;
+}
+
+.case-64 {
+   background: #317589;
+}
+
+.case-128 {
+   background: #1F4788;
+}
+
+.case-256 {
+   background: #01224E;
+}
+
+.case-512 {
+   background: #264348;
+}
+
+.case-1024 {
+   background: #0A1F3A;
+}
+
+.case-2048 {
+   background: #0F1B1D;
+}
+
+.controllers {
+    width: 530px;
+    margin: 10px auto;
+}
+
+.center-controllers div {
+  width: 49.8%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 1px;
+}
+
+.fleche {
+  font-size: 42px;
+  padding: 14px;
+  background-color: #59ABE3;
+  width: 48px;
+  height: 48px;
+  color: #fff;
+}
+
+
+
+.fleche-left, .fleche-right {
+  float: left;
+}
+.text-NG {
+    font-size: 22px;
+}
+
+.btn {
+ position: relative;
+  vertical-align: top;
+  width: 100%;
+  height: 60px;
+  padding: 0;
+  color: white;
+  text-align: center;
+  text-shadow: 0 1px 2px #59ABE3;
+  background: #59ABE3;
+  border: 0;
+  border-bottom: 2px solid #5D94B9;
+  cursor: pointer;
+  -webkit-box-shadow: inset 0 -2px #5D94B9;
+  box-shadow: inset 0 -2px #5D94B9;
+}
+
+.bot {
+    width: 78px;
+    position: absolute;
+    background-color: #D9DCDE;
+    color: #C12A2A;
+    line-height: 42px;
+}
+
+.gameoverOFF{
+  display: none;
+}
+.gameoverON {
+    position: absolute;
+    display: initial;
+    text-align: center;
+    font-size: 45px;
+    width: 100%;
+    margin: auto;
+    margin-top: 140px;
+    opacity: 0.2;
+}
+
+.pushed {
+  background-color: red;
+}

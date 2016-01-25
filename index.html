@@ -1,0 +1,50 @@
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+</head>
+<div class="container">
+
+<div class="top-game">
+<div class="btn bot" id="bot">BOT</div>
+<div id="score"></div>
+<button id="NG" class="btn text-NG">New Game</buttun>    
+</div>
+
+  <div class="gameoverOFF" id="game"><h1>GameOver</h1></div>
+    <div class="grid-container" id="grid"></div>
+
+
+    <div class="controllers">
+  		<div class="top-controllers">
+  			<div class="fleche align-center btn" id="haut">&uarr;</div>
+  		</div>
+  		<div class="center-controllers">
+	  		<div class="fleche fleche-left btn" id="gauche">&larr;</div>
+  			<div class="fleche fleche-right btn" id="droite">&rarr;</div>
+  			<div class="cf"></div>
+  		</div>
+  		<div class="fleche align-center btn" id="bas">&darr;</div>
+  	</div>
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+</div>
+
+
+
+<head>
+    <script type="text/javascript">
+        function OnButtonDown (button) {
+            button.style.color = "#EEE";
+        }
+        function OnButtonUp (button) {
+            button.style.color = "red";
+        }
+    </script>
+
+
+    <script src="https://js.leapmotion.com/leap-0.6.4.js"></script>
+    <script src="leap.js"></script>
+  
+</head>
